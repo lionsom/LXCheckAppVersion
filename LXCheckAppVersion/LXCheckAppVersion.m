@@ -48,6 +48,12 @@ static NSString *APP_ID = @"444934666";
         NSString *appVersion = [infoDic objectForKey:@"CFBundleShortVersionString"];
         
         // 比较当前版本和新版本号大小
+/*
+        if ([version compare:appVersion options:NSNumericSearch] == NSOrderedDescending) {
+            NSLog(@"App Store版本号 >>>> 本地版本号");
+            NSLog(@"发现新版本 %@", version);
+        }
+ */
         if ([version compare:appVersion options:NSNumericSearch] != NSOrderedSame) {
             NSLog(@"发现新版本 %@", version);
             
