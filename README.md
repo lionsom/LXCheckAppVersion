@@ -7,6 +7,10 @@
 ```
 https://itunes.apple.com/lookup?id=APP_ID
 ```
+```
+https://itunes.apple.com/cn/lookup?id=APP_ID
+```
+##### 注意：因为我的APP设置了只在国内，所以resultcount为0;所以必须加上cn才能请求的数据；<br>
 
 ## 使用<br>
 ```
